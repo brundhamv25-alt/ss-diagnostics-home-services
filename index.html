@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="SS Diagnostics and Home Services provides home healthcare and diagnostic support in Bank Colony, Road No. 12, Bheemaram, Hanumakonda.">
+<title>SS Diagnostics and Home Services | Home Healthcare</title>
+<style>
+:root{--navy:#082f68;--blue:#087db9;--green:#138b42;--mint:#eaf8ef;--sky:#eaf6ff;--ink:#122d50;--muted:#5d7188;--white:#fff;--line:#d9e7f1}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#f7fbff;line-height:1.55}
+a{color:inherit;text-decoration:none}.wrap{width:min(1440px,94%);margin:auto}
+.top{background:var(--navy);color:#fff;padding:8px 0;font-size:14px}.top .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+header{background:#fff;padding:14px 0;border-bottom:1px solid var(--line)}.head{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:13px}.logo{width:68px;height:68px;border-radius:18px;background:linear-gradient(145deg,#e6f5ff,#e5f8e9);display:grid;place-items:center;color:var(--green);font-size:35px;border:1px solid #cce3ed;flex-shrink:0}.brand h1{font-size:clamp(19px,2.7vw,31px);line-height:1.05;margin:0;color:var(--navy);font-weight:900}.brand h1 span{color:var(--green);display:block;font-size:.78em;margin-top:4px}.tagline-small{font-size:11px;color:var(--blue);font-weight:700;letter-spacing:1.5px}
+.head-contact{display:flex;gap:22px;align-items:center;font-weight:800;color:var(--navy)}.head-contact .item{display:flex;gap:10px;align-items:center}.round-icon{width:43px;height:43px;border-radius:50%;display:grid;place-items:center;background:#e6f7ed;color:var(--green);font-size:22px}
+nav{background:var(--navy);color:#fff}.navinner{display:flex;align-items:center;justify-content:center;gap:clamp(12px,3vw,40px);flex-wrap:wrap}.navinner a,.navinner button{border:0;background:none;color:#fff;font-size:15px;font-weight:700;padding:14px 4px;cursor:pointer}.navinner a:hover,.navinner button:hover{color:#85e1bc}.language{border:1px solid #a7c9e5!important;border-radius:22px;padding:7px 14px!important}
+.hero{background:linear-gradient(110deg,#e7f5ff 0%,#fff 54%,#e7f7ec 100%);overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:25px;padding:38px 0}.hero-copy{padding:10px 2%}.hero h2{font-size:clamp(31px,4.1vw,57px);line-height:1.08;color:var(--navy);font-weight:900;margin:0 0 16px}.hero h2 em{font-style:normal;color:var(--green)}.hero .slogan{font-size:clamp(18px,2.1vw,27px);font-weight:900;color:var(--navy);margin:0 0 12px}.ribbon{display:inline-block;background:var(--green);color:#fff;font-weight:900;font-size:clamp(19px,2.4vw,30px);padding:9px 18px;border-radius:8px 28px 28px 8px;margin:5px 0 15px}.hero p{color:var(--muted);font-size:17px;max-width:680px}.hero-art{min-height:315px;border-radius:34px;background:radial-gradient(circle at 70% 30%,#fff 0 12%,transparent 13%),linear-gradient(140deg,#c8e9fb,#e5f6e8);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}.hero-art:before{content:"";position:absolute;width:320px;height:320px;border-radius:50%;border:22px solid #fff9;right:-35px;top:-35px}.care-emoji{font-size:clamp(100px,15vw,185px);z-index:1;filter:drop-shadow(0 10px 8px #315a7130)}.art-label{position:absolute;bottom:22px;background:#ffffffeb;border-radius:25px;padding:10px 18px;font-weight:800;color:var(--navy);z-index:2}
+.benefits{display:flex;gap:0;flex-wrap:wrap;background:#ffffffd9;border:1px solid #d7e9f3;border-radius:16px;padding:10px 12px;margin-top:18px}.benefit{flex:1;min-width:130px;text-align:center;padding:5px 10px;font-weight:800;color:var(--navy);border-right:1px solid var(--line)}.benefit:last-child{border:0}.benefit b{color:var(--green);font-size:21px;margin-right:5px}
+section{padding:55px 0}.section-title{text-align:center;margin:0 auto 27px}.section-title h2{font-size:clamp(26px,3vw,36px);color:var(--navy);margin:0}.section-title p{color:var(--muted);margin:5px 0}.services{background:#f1f8fd}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.card{background:#fff;border:1px solid var(--line);border-radius:17px;padding:20px 16px;text-align:center;box-shadow:0 7px 20px #173d5c0b;transition:transform .2s,box-shadow .2s}.card:hover{transform:translateY(-4px);box-shadow:0 12px 26px #173d5c18}.card .ico{height:72px;width:100%;display:grid;place-items:center;background:linear-gradient(135deg,#e7f5ff,#eaf8ed);border-radius:12px;font-size:43px}.card h3{font-size:18px;color:var(--navy);line-height:1.2;margin:12px 0 7px}.card p{font-size:14px;color:var(--muted);margin:0}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}.about-box{background:var(--sky);padding:28px;border-radius:20px}.about-box .symbol{font-size:58px}.ticks{padding:0;list-style:none}.ticks li{margin:9px 0}.ticks li:before{content:"✓";font-weight:900;color:var(--green);margin-right:9px}
+.cta-band{background:linear-gradient(110deg,var(--navy),#087bb6);color:#fff;padding:34px 0}.cta-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.cta-inner h2{margin:0;font-size:clamp(22px,3vw,32px)}.btn{display:inline-block;border:0;border-radius:10px;padding:13px 20px;font-weight:800;cursor:pointer;font-size:15px}.btn-green{background:#0b913f;color:#fff}.btn-blue{background:var(--blue);color:#fff}.btn-white{background:#fff;color:var(--navy)}
+.booking{background:#f2f8fc}.formbox{max-width:850px;margin:auto;background:#fff;padding:26px;border:1px solid var(--line);border-radius:18px;box-shadow:0 10px 28px #183e5c0b}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}.field label{font-size:13px;font-weight:800;color:#35516b}.field input,.field select,.field textarea{width:100%;padding:12px;border:1px solid #cbdce7;border-radius:8px;font:inherit;color:var(--ink)}.field textarea{min-height:85px;resize:vertical}.hint{font-size:12px;color:var(--muted);margin:12px 0 0}
+.contacts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.contact-card{background:#f0f8fc;border:1px solid var(--line);padding:22px;border-radius:15px}.contact-card h3{margin:0 0 7px;color:var(--navy)}.contact-card p{margin:0;color:var(--muted)}.contact-card a{color:var(--blue);font-weight:800}
+footer{background:#08264d;color:#dceafa;text-align:center;padding:24px 12px;font-size:14px}.float-wa{position:fixed;right:18px;bottom:18px;background:#119b4b;color:white;padding:13px 18px;border-radius:30px;font-weight:900;box-shadow:0 5px 18px #0003;z-index:10}
+@media(max-width:900px){.head-contact{display:none}.hero-grid{grid-template-columns:1fr}.hero-art{min-height:230px}.cards{grid-template-columns:repeat(2,1fr)}.about-grid{grid-template-columns:1fr}.contacts{grid-template-columns:1fr}}
+@media(max-width:560px){.top .wrap{justify-content:center;text-align:center}.brand h1{font-size:18px}.logo{width:52px;height:52px;font-size:27px}.tagline-small{font-size:9px}.navinner{gap:10px}.navinner a,.navinner button{font-size:12px;padding:10px 2px}.hero-grid{padding:30px 0}.hero-art{min-height:190px}.benefit{min-width:50%;border-right:0}.cards{grid-template-columns:1fr 1fr;gap:9px}.card{padding:13px 9px}.card .ico{height:58px;font-size:34px}.card h3{font-size:15px}.card p{font-size:12px}section{padding:40px 0}.formgrid{grid-template-columns:1fr}.field.full{grid-column:auto}.formbox{padding:18px}.float-wa{right:10px;bottom:10px}}
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap"><span>☎ <a href="tel:9154124906">9154124906</a> &nbsp; | &nbsp; <a href="tel:9440692033">9440692033</a></span><span>📍 Bank Colony, Road No. 12, Bheemaram, Hanumakonda</span></div></div>
+<header><div class="wrap head">
+ <div class="brand"><div class="logo">✚⌂</div><div><h1>SS DIAGNOSTICS <span>AND HOME SERVICES</span></h1><div class="tagline-small">QUALITY HEALTHCARE AT YOUR DOORSTEP</div></div></div>
+ <div class="head-contact"><div class="item"><span class="round-icon">☎</span><span>9154124906<br>9440692033</span></div><div class="item"><span class="round-icon">📍</span><span>Bank Colony, Road No. 12,<br>Bheemaram, Hanumakonda</span></div></div>
+</div></header>
+<nav><div class="wrap navinner">
+ <a href="#home" data-en="⌂ Home" data-te="⌂ హోమ్">⌂ Home</a><a href="#about" data-en="About Us" data-te="మా గురించి">About Us</a><a href="#services" data-en="Our Services" data-te="మా సేవలు">Our Services</a><a href="#appointment" data-en="Book Appointment" data-te="అపాయింట్‌మెంట్">Book Appointment</a><a href="#contact" data-en="Contact Us" data-te="సంప్రదించండి">Contact Us</a><button class="language" id="language">తెలుగు</button>
+</div></nav>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+ <div class="hero-copy">
+  <div class="slogan" data-en="Don't Waste Time or Money on Unnecessary Hospital Visits" data-te="అవసరం లేని ఆసుపత్రి సందర్శనలతో సమయం, డబ్బు వృథా చేసుకోకండి">Don't Waste Time or Money on Unnecessary Hospital Visits</div>
+  <h2 data-en-html="Healthcare made easier, <em>right at home.</em>" data-te-html="ఆరోగ్య సేవలు ఇప్పుడు <em>మీ ఇంటి వద్దకే.</em>">Healthcare made easier, <em>right at home.</em></h2>
+  <div class="ribbon" data-en="ALL SERVICES AT YOUR DOORSTEP!" data-te="అన్ని సేవలు మీ ఇంటి వద్దకే!">ALL SERVICES AT YOUR DOORSTEP!</div>
+  <p data-en="Doctor visits, nursing, patient care and diagnostic support at home in and around Hanumakonda. Contact us to check service availability." data-te="హనుమకొండ మరియు పరిసర ప్రాంతాల్లో డాక్టర్ సందర్శనలు, నర్సింగ్, రోగుల సంరక్షణ మరియు డయాగ్నస్టిక్ సేవలు ఇంటివద్ద. సేవల అందుబాటుకు మమ్మల్ని సంప్రదించండి.">Doctor visits, nursing, patient care and diagnostic support at home in and around Hanumakonda. Contact us to check service availability.</p>
+  <div class="benefits"><div class="benefit"><b>◷</b><span data-en="Save Time" data-te="సమయం ఆదా">Save Time</span></div><div class="benefit"><b>₹</b><span data-en="Convenient Care" data-te="సౌకర్యవంతమైన సేవలు">Convenient Care</span></div><div class="benefit"><b>♡</b><span data-en="Comfort at Home" data-te="ఇంటివద్ద సౌకర్యం">Comfort at Home</span></div><div class="benefit"><b>✓</b><span data-en="Professional Care" data-te="నిపుణుల సంరక్షణ">Professional Care</span></div></div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:18px"><a class="btn btn-blue" href="#appointment" data-en="Book an Appointment" data-te="అపాయింట్‌మెంట్ బుక్ చేయండి">Book an Appointment</a><a class="btn btn-green" href="https://wa.me/919154124906" target="_blank" rel="noopener" data-en="Chat on WhatsApp" data-te="వాట్సాప్‌లో సంప్రదించండి">Chat on WhatsApp</a></div>
+ </div>
+ <div class="hero-art" role="img" aria-label="Home healthcare illustration"><div class="care-emoji">🏡👩‍⚕️</div><div class="art-label" data-en="Care and support at your doorstep" data-te="మీ ఇంటి వద్దకే సంరక్షణ">Care and support at your doorstep</div></div>
+</div></section>
+<section class="services" id="services"><div class="wrap">
+ <div class="section-title"><h2 data-en="Our Services" data-te="మా సేవలు">Our Services</h2><p data-en="Healthcare and diagnostic support at your doorstep." data-te="మీ ఇంటి వద్దకే ఆరోగ్య మరియు డయాగ్నస్టిక్ సేవలు.">Healthcare and diagnostic support at your doorstep.</p></div>
+ <div class="cards">
+  <article class="card"><div class="ico">🩺</div><h3 data-en="Doctor Home Visits" data-te="డాక్టర్ ఇంటి సందర్శనలు">Doctor Home Visits</h3><p data-en="Doctor consultation at home, subject to availability." data-te="అందుబాటును బట్టి ఇంటివద్ద డాక్టర్ సంప్రదింపు.">Doctor consultation at home, subject to availability.</p></article>
+  <article class="card"><div class="ico">👩‍⚕️</div><h3 data-en="Nursing Care at Home" data-te="ఇంటివద్ద నర్సింగ్ సేవలు">Nursing Care at Home</h3><p data-en="Nursing support according to the patient's needs." data-te="రోగి అవసరాలకు అనుగుణంగా నర్సింగ్ సహాయం.">Nursing support according to the patient's needs.</p></article>
+  <article class="card"><div class="ico">🤝</div><h3 data-en="Elderly Patient Care" data-te="వృద్ధుల సంరక్షణ">Elderly Patient Care</h3><p data-en="Daily care and assistance for elderly patients." data-te="వృద్ధ రోగులకు రోజువారీ సంరక్షణ మరియు సహాయం.">Daily care and assistance for elderly patients.</p></article>
+  <article class="card"><div class="ico">🩹</div><h3 data-en="Injection & Dressing" data-te="ఇంజెక్షన్ మరియు డ్రెస్సింగ్">Injection & Dressing</h3><p data-en="Services performed by qualified staff as prescribed." data-te="వైద్యుల సూచన మేరకు అర్హత కలిగిన సిబ్బందిచే సేవలు.">Services performed by qualified staff as prescribed.</p></article>
+  <article class="card"><div class="ico">🧘</div><h3 data-en="Physiotherapy at Home" data-te="ఇంటివద్ద ఫిజియోథెరపీ">Physiotherapy at Home</h3><p data-en="Home physiotherapy support, subject to availability." data-te="అందుబాటును బట్టి ఇంటివద్ద ఫిజియోథెరపీ సహాయం.">Home physiotherapy support, subject to availability.</p></article>
+  <article class="card"><div class="ico">🛏️</div><h3 data-en="Post-Surgery Care" data-te="శస్త్రచికిత్స అనంతర సంరక్షణ">Post-Surgery Care</h3><p data-en="Support for patients during recovery at home." data-te="ఇంటివద్ద కోలుకునే సమయంలో రోగులకు సహాయం.">Support for patients during recovery at home.</p></article>
+  <article class="card"><div class="ico">🧪</div><h3 data-en="Lab Sample Collection" data-te="ల్యాబ్ నమూనాల సేకరణ">Lab Sample Collection</h3><p data-en="Enquire about home sample collection and tests." data-te="ఇంటివద్ద నమూనాల సేకరణ మరియు పరీక్షల వివరాలు తెలుసుకోండి.">Enquire about home sample collection and tests.</p></article>
+ </div>
+</div></section>
+<section id="about"><div class="wrap about-grid">
+ <div><div class="section-title" style="text-align:left;margin:0 0 10px"><h2 data-en="About SS Diagnostics and Home Services" data-te="SS డయాగ్నస్టిక్స్ అండ్ హోమ్ సర్వీసెస్ గురించి">About SS Diagnostics and Home Services</h2></div>
+ <p data-en="We help patients and families enquire about convenient home healthcare and diagnostic services in Hanumakonda and nearby areas. Contact our team to confirm availability, timings and charges before booking." data-te="హనుమకొండ మరియు సమీప ప్రాంతాల్లో ఇంటివద్ద ఆరోగ్య మరియు డయాగ్నస్టిక్ సేవల వివరాలను తెలుసుకోవడానికి మేము సహాయం చేస్తాము. బుకింగ్‌కు ముందు సేవల అందుబాటు, సమయాలు మరియు ఛార్జీలను నిర్ధారించుకోండి.">We help patients and families enquire about convenient home healthcare and diagnostic services in Hanumakonda and nearby areas. Contact our team to confirm availability, timings and charges before booking.</p>
+ <ul class="ticks"><li data-en="Home service enquiries made simple." data-te="ఇంటి సేవల వివరాలు సులభంగా తెలుసుకోండి.">Home service enquiries made simple.</li><li data-en="Confirm service availability before booking." data-te="బుకింగ్‌కు ముందు సేవల అందుబాటును నిర్ధారించుకోండి.">Confirm service availability before booking.</li><li data-en="Care should be provided by appropriately qualified professionals." data-te="తగిన అర్హత కలిగిన నిపుణుల ద్వారా సేవలు పొందండి.">Care should be provided by appropriately qualified professionals.</li></ul>
+ </div><div class="about-box"><div class="symbol">🏠💙</div><h2 data-en="Your health. Your home. Our care." data-te="మీ ఆరోగ్యం. మీ ఇల్లు. మా సంరక్షణ.">Your health. Your home. Our care.</h2><p data-en="Call us to discuss the right home service for your needs." data-te="మీ అవసరాలకు తగిన ఇంటి సేవల కోసం మమ్మల్ని సంప్రదించండి.">Call us to discuss the right home service for your needs.</p><a class="btn btn-blue" href="tel:9154124906">Call 9154124906</a></div>
+</div></section>
+<div class="cta-band"><div class="wrap cta-inner"><h2 data-en="Need home healthcare support?" data-te="ఇంటివద్ద ఆరోగ్య సేవలు కావాలా?">Need home healthcare support?</h2><div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn btn-green" href="https://wa.me/919154124906" target="_blank" rel="noopener">WhatsApp</a><a class="btn btn-white" href="tel:9440692033">Call 9440692033</a></div></div></div>
+<section class="booking" id="appointment"><div class="wrap">
+ <div class="section-title"><h2 data-en="Book a Home Service" data-te="హోమ్ సర్వీస్ బుక్ చేయండి">Book a Home Service</h2><p data-en="Fill in your details. Your request will open in WhatsApp for sending." data-te="మీ వివరాలు నమోదు చేయండి. పంపడానికి మీ అభ్యర్థన వాట్సాప్‌లో తెరుచుకుంటుంది.">Fill in your details. Your request will open in WhatsApp for sending.</p></div>
+ <div class="formbox"><form id="bookingForm"><div class="formgrid">
+  <div class="field"><label for="patient" data-en="Patient / Contact Name" data-te="రోగి / సంప్రదింపు పేరు">Patient / Contact Name</label><input id="patient" required placeholder="Enter name"></div>
+  <div class="field"><label for="mobile" data-en="Your Phone Number" data-te="మీ ఫోన్ నంబర్">Your Phone Number</label><input id="mobile" type="tel" required pattern="[0-9+\s-]{10,15}" placeholder="Enter phone number"></div>
+  <div class="field"><label for="service" data-en="Select Service" data-te="సేవను ఎంచుకోండి">Select Service</label><select id="service" required><option value="">Choose a service</option><option>Doctor Home Visits</option><option>Nursing Care at Home</option><option>Elderly Patient Care</option><option>Injection & Dressing</option><option>Physiotherapy at Home</option><option>Post-Surgery Care</option><option>Lab Sample Collection</option></select></div>
+  <div class="field"><label for="date" data-en="Preferred Date" data-te="కావలసిన తేదీ">Preferred Date</label><input id="date" type="date"></div>
+  <div class="field full"><label for="address" data-en="Patient Address" data-te="రోగి చిరునామా">Patient Address</label><input id="address" placeholder="House number, area and landmark"></div>
+  <div class="field full"><label for="details" data-en="Additional Details" data-te="అదనపు వివరాలు">Additional Details</label><textarea id="details" placeholder="Tell us briefly what service is needed"></textarea></div>
+  <div class="field full"><button class="btn btn-green" type="submit" data-en="Send Request on WhatsApp" data-te="వాట్సాప్‌లో అభ్యర్థన పంపండి">Send Request on WhatsApp</button></div>
+ </div></form><p class="hint" data-en="Submitting this form does not confirm an appointment. Our team must contact you to confirm availability. For emergencies, contact emergency services or go to the nearest hospital." data-te="ఈ ఫారం పంపడం ద్వారా అపాయింట్‌మెంట్ నిర్ధారించబడదు. అందుబాటును నిర్ధారించడానికి మా బృందం మిమ్మల్ని సంప్రదిస్తుంది. అత్యవసర పరిస్థితుల్లో అత్యవసర సేవలను సంప్రదించండి లేదా సమీప ఆసుపత్రికి వెళ్లండి.">Submitting this form does not confirm an appointment. Our team must contact you to confirm availability. For emergencies, contact emergency services or go to the nearest hospital.</p></div>
+</div></section>
+<section id="contact"><div class="wrap"><div class="section-title"><h2 data-en="Contact Us" data-te="మమ్మల్ని సంప్రదించండి">Contact Us</h2><p data-en="We are here to answer your service enquiries." data-te="మీ సేవల సందేహాలకు సమాధానం ఇవ్వడానికి మేము సిద్ధంగా ఉన్నాము.">We are here to answer your service enquiries.</p></div>
+ <div class="contacts">
+  <div class="contact-card"><h3>☎ <span data-en="Call Us" data-te="ఫోన్ చేయండి">Call Us</span></h3><p><a href="tel:9154124906">9154124906</a><br><a href="tel:9440692033">9440692033</a></p></div>
+  <div class="contact-card"><h3>📍 <span data-en="Our Address" data-te="మా చిరునామా">Our Address</span></h3><p>Bank Colony, Road No. 12,<br>Bheemaram, Hanumakonda, Telangana</p><p><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Bank+Colony%2C+Road+No.+12%2C+Bheemaram%2C+Hanumakonda%2C+Telangana" data-en="Open in Google Maps" data-te="గూగుల్ మ్యాప్స్‌లో చూడండి">Open in Google Maps</a></p></div>
+  <div class="contact-card"><h3>💬 WhatsApp</h3><p data-en="Send an enquiry or appointment request." data-te="సేవల వివరాలు లేదా అపాయింట్‌మెంట్ అభ్యర్థన పంపండి.">Send an enquiry or appointment request.</p><p><a href="https://wa.me/919154124906" target="_blank" rel="noopener">Chat on WhatsApp</a></p></div>
+ </div>
+</div></section>
+</main>
+<footer>© <span id="year"></span> SS DIAGNOSTICS AND HOME SERVICES. <span data-en="All rights reserved." data-te="అన్ని హక్కులు రిజర్వ్ చేయబడ్డాయి.">All rights reserved.</span><br>Bank Colony, Road No. 12, Bheemaram, Hanumakonda, Telangana</footer>
+<a class="float-wa" href="https://wa.me/919154124906" target="_blank" rel="noopener">☏ WhatsApp</a>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+let lang='en';
+document.getElementById('language').addEventListener('click',()=>{
+ lang=lang==='en'?'te':'en';
+ document.documentElement.lang=lang;
+ document.querySelectorAll('[data-en][data-te]').forEach(el=>{el.textContent=el.dataset[lang]});
+ document.querySelectorAll('[data-en-html][data-te-html]').forEach(el=>{el.innerHTML=el.dataset[lang+'Html']});
+ document.getElementById('language').textContent=lang==='en'?'తెలుగు':'English';
+});
+document.getElementById('bookingForm').addEventListener('submit',e=>{
+ e.preventDefault();
+ const v=id=>document.getElementById(id).value.trim();
+ const msg=`SS DIAGNOSTICS AND HOME SERVICES - Home Service Request\nName: ${v('patient')}\nPhone: ${v('mobile')}\nService: ${v('service')}\nPreferred date: ${v('date')||'Not specified'}\nAddress: ${v('address')||'Not specified'}\nDetails: ${v('details')||'None'}`;
+ window.open('https://wa.me/919154124906?text='+encodeURIComponent(msg),'_blank');
+});
+</script>
+</body></html>
